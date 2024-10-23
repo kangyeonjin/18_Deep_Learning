@@ -11,8 +11,7 @@
     <p>라벨: {{ result['label'] }} (Score: {{ result['score'] }})</p>
 
     <h2>생성된 이미지:</h2>
-    <img src="data:image/png;base64,{{ image_data | b64encode }}" alt="Generated Image"/>
-    
+    <img src="data:image/png;base64,{{ image_data }}" alt="Generated Image"/>
     <a href="/">Go Back</a>
 </body>
 </html>
